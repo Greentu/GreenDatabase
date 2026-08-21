@@ -1,0 +1,44 @@
+Course code,Course Name,,Level,SDG 1               No Poverty,SDG 2         Zero Hunger,SDG 3       Good Health & Well-Being,SDG 4         Quality Education,SDG 5         Gender Equality,SDG 6         Clean Water & Sanitation,SDG 7         Affordable & Clean Energy,SDG 8         Decent Work & Economic Growth,"SDG 9         Industry, Innovation & Infrastructure",SDG 10         Reduced Inequalities,SDG 11         Sustainable Cities & Communities,SDG 12         Responsible Consumption & Production,SDG 13         Climate Action,SDG 14         Life Below Water,SDG 15         Life On Land,"SDG 16         Peace, Justice & Strong Institutions",SDG 17         Partnerships for the Goals
+AE1108-I,Aerospace Materials,"materials, microstructure, sustainability, circularity, environmental impact, durability, degradation, material selection, efficiency, innovation",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE2224-II,Artificial Intelligence for Aerospace Engineering ,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE2230-II,Propulsion en Power ,"propulsion, gas turbines, rockets, photovoltaics, batteries, fuel cells, power systems, thrust, cycle analysis, system sizing",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+AE3200,Design Synthesis ,"energy, innovation, lifecycle, emissions, mobility, resilience, efficiency, materials, environment, infrastructure",,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+ AE3211-II,Production of Aerospace Systems,"manufacturing, sustainability, lifecycle, materials, processes, impact, automation, quality, emissions, production",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ AE3501-25,Air Transportation,"aviation, infrastructure, regulation, operations, sustainability, emissions, efficiency, technology, logistics, governance",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE3502-14,"Airport Planning, Design and Operations","infrastructure, capacity, demand, noise, environment, planning, design, airports, policy, efficiency",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+AE3503,Strategic Planning for Airport Systems,"infrastructure, planning, demand, capacity, environment, security, policy, governance, strategy, airport",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+AE3512-20,Asset Management,"wind energy, lifecycle, maintenance, RAMS, optimization, infrastructure, reliability, sustainability, monitoring, costs",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE3513,Integration Assignment,"offshore wind, renewable energy, innovation, infrastructure, climate, future challenges, sustainability, systems, development",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+AE3515,Basics of Aeroacoustics for Wind Energy,"wind energy, noise, mitigation, sustainability, communities, deployment, climate, renewables, acoustics, acceptance",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE3516A,Fundamentals of Wind Energy I,"wind energy, offshore, clean power, climate mitigation, infrastructure, innovation, marine environment, turbines, planning, yield",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE3516B,Fundamentals of Wind Energy II,"offshore wind, turbines, clean energy, climate mitigation, innovation, infrastructure, stakeholders, social acceptance, sustainability, design",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4006E,Sustainability in Engineering,"climate justice, degrowth, circular economy, equity, diversity, decolonisation, ethics, sustainability, democracy, responsibility",,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+AE4115-23,Experimental Simulations,Particular attention is given to the simulation of aircraft propulsion and noise generation,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4238,Aero Engine Technology,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4260A,Fundamentals of Aeroacoustics,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+AE4260B,Experimental Applications of Aeroacoustics,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+AE4262,Combustion for Propulsion and Power Technologies,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4316,Aerospace Human-Machine Systems,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+AE4316P,Advanced Topics in Aerospace Human-Machine Systems,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+AE4321-15,Air Traffic Management,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4423-20,Airline Planning and Optimisation,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4431-23,Aircraft noise,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4462-17,Aircraft Emissions and Climate Effects,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4463P-23,Advanced Aircraft Noise Modelling and Measurement,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4465,Maintenance Modelling and Analysis,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+AE4876-24,Planetary Missions,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE
+AE4890-11,Planetary Exploration,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+AE4893-24,Physics of Planetary Interiors,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+AE4895-25,Measurement Strategies for Planetary Science Missions,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+AE4ASM001,Design of Lightweight Structures I: Composites and Metals,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4ASM504,Structural Integrity and Maintenance,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+AE4ASM520,Industrial Composite Manufacturing,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4ASM521,Additive Manufacturing,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4T40,Airborne Wind Energy,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4W02TU,Introduction to Wind Turbines: Physics and Technology,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4W09,Wind Turbine Design,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4W13,Site Conditions for Wind Turbine Design,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4W30,Wind Resource and Wind Farm Yield,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE4W31,Floating Offshore Wind Energy,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE5122,Thesis Aerodynamics and Wind Energy,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+AE5722,Thesis Aerospace Structures and Materials,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
