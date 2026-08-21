@@ -1,0 +1,580 @@
+body.local {
+    padding-top: 2rem;
+    padding-bottom: 3rem
+}
+
+body.local #greendatabase-status-wrapper {
+    visibility: visible !important
+}
+
+body:not(.local) h1 {
+    margin-top: -15px
+}
+
+#greendatabase-home-button {
+    display: block
+}
+
+#greendatabase-intro-text:not(.hidden)~* {
+    display: none
+}
+
+@media(max-width: 37.5em) {
+    #greendatabase-filters-button {
+        display: inline-block
+    }
+
+    #greendatabase-filters-button:not(.mobile-filters-visible)~* {
+        display: none
+    }
+}
+
+.greendatabase-items-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin: 0 -0.5rem -1rem
+}
+
+.greendatabase-items-container,
+.greendatabase-items-container * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.greendatabase-items-container>.card-wrapper {
+    width: 100%;
+    padding: 0 .5rem 1rem;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch
+}
+
+.greendatabase-items-container>.card-wrapper.filtered {
+    display: none
+}
+
+@media(min-width: 64em) {
+    .greendatabase-items-container>.card-wrapper {
+        width: 50%
+    }
+}
+
+@media(min-width: 80em) {
+    .greendatabase-items-container>.card-wrapper {
+        width: 33%
+    }
+}
+
+.greendatabase-items-container>.card-wrapper>.card {
+    width: 100%;
+    height: auto !important;
+    text-decoration: none
+}
+
+.greendatabase-items-container>.card-wrapper>.card:before {
+    pointer-events: none
+}
+
+.greendatabase-items-container>.card-wrapper>.card>.card__content {
+    position: static
+}
+
+.greendatabase-items-container>.card-wrapper>.card .btn {
+    margin-top: 15px;
+    margin-bottom: 0
+}
+
+#greendatabase-sort {
+    margin-bottom: 1.5rem
+}
+
+.sdgs {
+    margin-top: 10px
+}
+
+.sdgs:hover .sdg-block:not(:hover) {
+    opacity: .8
+}
+
+.sdg-block {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    color: #fff;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: opacity .1s ease, -webkit-transform .1s ease;
+    transition: opacity .1s ease, -webkit-transform .1s ease;
+    transition: transform .1s ease, opacity .1s ease;
+    transition: transform .1s ease, opacity .1s ease, -webkit-transform .1s ease
+}
+
+.sdg-block:not(:last-child) {
+    margin-right: 5px
+}
+
+.sdg-block:before {
+    display: inline-block;
+    content: "SDG";
+    font-size: 50%;
+    width: 100%
+}
+
+.sdg-block:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: opacity .1s ease, -webkit-transform .1s ease, -webkit-box-shadow .1s ease;
+    transition: opacity .1s ease, -webkit-transform .1s ease, -webkit-box-shadow .1s ease;
+    transition: transform .1s ease, opacity .1s ease, box-shadow .1s ease;
+    transition: transform .1s ease, opacity .1s ease, box-shadow .1s ease, -webkit-transform .1s ease, -webkit-box-shadow .1s ease;
+    z-index: 1;
+    pointer-events: none
+}
+
+.sdg-block:hover {
+    color: #fff;
+    z-index: 2
+}
+
+.sdg-block:hover:after {
+    -webkit-box-shadow: 0 1px 10px rgba(255, 255, 255, .5);
+    box-shadow: 0 1px 10px rgba(255, 255, 255, .5);
+    -webkit-transform: scale(2.1);
+    transform: scale(2.1);
+    opacity: 1
+}
+
+.sdg-block.sdg-1 {
+    background-color: #e5233d
+}
+
+.sdg-block.sdg-1:after {
+    background-color: #e5233d;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-01.jpg")
+}
+
+.sdg-block.sdg-2 {
+    background-color: #dda73a
+}
+
+.sdg-block.sdg-2:after {
+    background-color: #dda73a;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-02.jpg")
+}
+
+.sdg-block.sdg-3 {
+    background-color: #4ca146
+}
+
+.sdg-block.sdg-3:after {
+    background-color: #4ca146;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-03.jpg")
+}
+
+.sdg-block.sdg-4 {
+    background-color: #c5192d
+}
+
+.sdg-block.sdg-4:after {
+    background-color: #c5192d;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-04.jpg")
+}
+
+.sdg-block.sdg-5 {
+    background-color: #ef402c
+}
+
+.sdg-block.sdg-5:after {
+    background-color: #ef402c;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-05.jpg")
+}
+
+.sdg-block.sdg-6 {
+    background-color: #27bfe6
+}
+
+.sdg-block.sdg-6:after {
+    background-color: #27bfe6;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-06.jpg")
+}
+
+.sdg-block.sdg-7 {
+    background-color: #fbc412
+}
+
+.sdg-block.sdg-7:after {
+    background-color: #fbc412;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-07.jpg")
+}
+
+.sdg-block.sdg-8 {
+    background-color: #a31c44
+}
+
+.sdg-block.sdg-8:after {
+    background-color: #a31c44;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-08.jpg")
+}
+
+.sdg-block.sdg-9 {
+    background-color: #f26a2d
+}
+
+.sdg-block.sdg-9:after {
+    background-color: #f26a2d;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-09.jpg")
+}
+
+.sdg-block.sdg-10 {
+    background-color: #e01483
+}
+
+.sdg-block.sdg-10:after {
+    background-color: #e01483;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-10.jpg")
+}
+
+.sdg-block.sdg-11 {
+    background-color: #f89d2a
+}
+
+.sdg-block.sdg-11:after {
+    background-color: #f89d2a;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-11.jpg")
+}
+
+.sdg-block.sdg-12 {
+    background-color: #bf8d2c
+}
+
+.sdg-block.sdg-12:after {
+    background-color: #bf8d2c;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-12.jpg")
+}
+
+.sdg-block.sdg-13 {
+    background-color: #407f46
+}
+
+.sdg-block.sdg-13:after {
+    background-color: #407f46;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg")
+}
+
+.sdg-block.sdg-14 {
+    background-color: #1f97d4
+}
+
+.sdg-block.sdg-14:after {
+    background-color: #1f97d4;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-14.jpg")
+}
+
+.sdg-block.sdg-15 {
+    background-color: #59ba48
+}
+
+.sdg-block.sdg-15:after {
+    background-color: #59ba48;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-15.jpg")
+}
+
+.sdg-block.sdg-16 {
+    background-color: #126a9f
+}
+
+.sdg-block.sdg-16:after {
+    background-color: #126a9f;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-16.jpg")
+}
+
+.sdg-block.sdg-17 {
+    background-color: #13496b
+}
+
+.sdg-block.sdg-17:after {
+    background-color: #13496b;
+    background-size: contain;
+    background-image: url("https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-17.jpg")
+}
+
+.sdg-checkbox-wrapper {
+    display: inline-block;
+    width: calc(33% - 5px);
+    margin-right: 5px
+}
+
+.sdg-checkbox-label {
+    display: block;
+    line-height: 45px
+}
+
+.sdg-checkbox-label .sdg-block {
+    margin-left: 4px
+}
+
+.sdg-checkbox-label:hover .sdg-block:hover:after {
+    opacity: 1;
+    -webkit-transform: translateX(50%) scale(2.15);
+    transform: translateX(50%) scale(2.15)
+}
+
+.sdg-checkbox-label input[type=checkbox] {
+    vertical-align: middle
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 1.5px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border-color: #000 rgba(0, 0, 0, 0) #000 rgba(0, 0, 0, 0);
+    -webkit-animation: lds-dual-ring 1.2s linear infinite;
+    animation: lds-dual-ring 1.2s linear infinite
+}
+
+@-webkit-keyframes lds-dual-ring {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+#greendatabase-analytics {
+    position: fixed;
+    bottom: 70px;
+    right: 24px;
+    width: 280px;
+    max-height: 70vh;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .18);
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875em;
+    z-index: 1000;
+    transition: transform .2s ease, opacity .2s ease
+}
+
+#greendatabase-analytics.collapsed {
+    transform: translateY(20px);
+    opacity: 0;
+    pointer-events: none
+}
+
+#greendatabase-analytics .analytics-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    background: #4ca146;
+    color: #fff;
+    border-radius: 6px 6px 0 0;
+    flex-shrink: 0
+}
+
+#greendatabase-analytics .analytics-title {
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0
+}
+
+#greendatabase-analytics .analytics-close {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0
+}
+
+#greendatabase-analytics .analytics-body {
+    overflow-y: auto;
+    padding: 12px 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px
+}
+
+#greendatabase-analytics .analytics-row {
+    margin-bottom: 2px
+}
+
+#greendatabase-analytics .analytics-row--indent {
+    padding-left: 10px;
+    border-left: 2px solid #e0e0e0;
+    margin-left: 6px
+}
+
+#greendatabase-analytics .analytics-row-label {
+    font-weight: 600;
+    font-size: 0.85em;
+    color: #333;
+    margin-bottom: 1px;
+    word-break: break-word
+}
+
+#greendatabase-analytics .analytics-row--indent .analytics-row-label {
+    font-weight: 400;
+    color: #555
+}
+
+#greendatabase-analytics .analytics-row-stat {
+    color: #444;
+    margin-bottom: 3px;
+    font-size: 0.85em
+}
+
+#greendatabase-analytics .analytics-pct {
+    color: #4ca146;
+    font-weight: 700
+}
+
+#greendatabase-analytics .analytics-top3 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 8px
+}
+
+#greendatabase-analytics .analytics-top3-label {
+    font-size: 0.82em;
+    color: #666;
+    white-space: nowrap;
+    margin-right: 2px
+}
+
+#greendatabase-analytics .analytics-top3 .sdg-block {
+    width: 26px;
+    height: 26px;
+    line-height: 10px;
+    font-size: 9px;
+    margin-right: 0
+}
+
+#greendatabase-analytics .analytics-divider {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 6px 0
+}
+
+#greendatabase-analytics .analytics-programs {
+    margin-top: 2px
+}
+
+#greendatabase-analytics-toggle {
+    position: fixed;
+    bottom: 70px;
+    right: 24px;
+    background: #4ca146;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-weight: 700;
+    font-size: 0.85em;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2)
+}
+
+.faculty-filter-item {
+    margin-bottom: 4px
+}
+
+.program-subfilter-group {
+    display: none;
+    padding-left: 18px;
+    border-left: 2px solid #e0e0e0;
+    margin-top: 2px
+}
+
+.faculty-filter-item.is-expanded .program-subfilter-group {
+    display: block
+}
+
+.program-subfilter-group label {
+    font-size: 0.92em;
+    color: #444
+}
