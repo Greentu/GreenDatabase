@@ -1,0 +1,10 @@
+Field name,Course code///Vakcode,Course name///Vaknaam,Link,Sustainable course?///Duurzaam vak?,Level///Niveau,Faculty///Faculteit,SDGs///SDG's
+TRUE,4051ALACHY,,,Yes,BSc,Applied Sciences,"[7, 9]"
+FALSE,4051CALC1Y,,,No,BSc,Applied Sciences,[]
+FALSE,4051CALC2Y,,,No,BSc,Applied Sciences,[]
+FALSE,4051CHAN3Y,,,No,BSc,Applied Sciences,[]
+FALSE,4051CHTHEY,,,No,BSc,Applied Sciences,[]
+TRUE,4051INCHE,,,Yes,BSc,Applied Sciences,[3]
+FALSE,4051IPTECY,,,No,BSc,Applied Sciences,[]
+FALSE,4051LEON1Y,,,No,BSc,Applied Sciences,[]
+FALSE,4051OCSTRY,,,No,BSc,Applied Sciences,[]
