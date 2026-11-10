@@ -81,6 +81,11 @@ python sdg_rating.py --input 22-23/csvs/tudelft_courses_22-23_from_pdfs.csv --ou
 
 Common options: `gpt-4o-mini` (cheaper), `gpt-4o` (more accurate), `gpt-4-turbo`.
 
+For 2026-2027
+```bash
+python sdg_rating.py --input 26-27/csvs/tudelft_courses_26-27_scraped.csv --output 26-27/csvs/tudelft_courses_26-27_sdg.csv --model gpt-6-luna
+```
+
 ---
 
 ## Step 3: Compare with manual ratings
