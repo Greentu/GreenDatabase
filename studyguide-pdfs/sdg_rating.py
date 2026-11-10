@@ -57,9 +57,10 @@ OUTPUT_FIELDS = [
 ]
 
 SYSTEM_PROMPT = (
-    "You are an expert classifier mapping course content to UN SDGs. "
-    "Mark an SDG as present ONLY if the course explicitly teaches that SDG topic. "
-    "If unsure, mark false. Respond with JSON only."
+    "You are an expert classifier mapping course content to the 17 United Nations Sustainable Development Goal (hereafter referred to as an SDG). "
+    "Mark an SDG as present ONLY if the course explicitly teaches (that is, that students are expected to learn about, analyse, apply knowledge related to, evaluate, and/or design responses to) that SDG topic (as defined by the goals, targets and indicators related to each SDG). "
+    "Consider only the information supplied and do not make inferences based on the course title, discipline, educational institution, responsible instructor, degree programme, or using knowledge of comparable courses. If unsure, mark false. Respond with JSON only. Give the greatest weight to the following areas: assessed learning outcomes, and course description. "
+    "Apply the same standard consistently to all 17 SDGs. Do not transfer evidence between related SDGs, rather, each SDG should be independently investigated and should meet the same standard to be marked as True. "
 )
 
 
