@@ -75,6 +75,8 @@ If interrupted, run the same command again — it will pick up where it left off
 
 The default model is `gpt-4o-mini`. To use a different model, add `--model`:
 
+Depending on the model, you need to change the `temperature` from `0` to `1`. For instance, when conducted in 2025-2026, `gpt-4o-mini` was used, which required a `temperature` of `0` whereas during 2026-2027 with `gpt-6-luna`, a `temperature` of `1` was required.
+
 ```bash
 python sdg_rating.py --input 22-23/csvs/tudelft_courses_22-23_from_pdfs.csv --output 22-23/csvs/tudelft_courses_22-23_sdg.csv --model gpt-4o
 ```
